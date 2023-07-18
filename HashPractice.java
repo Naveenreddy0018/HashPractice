@@ -10,13 +10,6 @@ public class HashPractice {
     //     return hashCode;
 
     // }
-    // public static void main(String[] args){
-    //     String name ="Gousiya";
-    //     int hashCode = customHashFunction(name);
-    //     System.out.println(name);
-    //     System.out.println(hashCode);
-
-    // }
     // public static void main(String[] args) {
     //     Map<Integer, String> dataMap = new HashMap<>();
 
@@ -30,7 +23,7 @@ public class HashPractice {
     public static void main(String[] args) {
         Map<Integer, String> dataMap = new HashMap<>();
 
-        String name = "Pushpanjali";
+        String name = "Naveen";
         int hashCode = name.hashCode();
         System.out.println(hashCode);
         // Key => hashCode
